@@ -33,8 +33,13 @@ p {
     color: white;
 }
 
+.titleBoxes {
+    margin: 5px 0;
+}
+
 .navbarContainer {
     padding: .5rem 6%;
+    padding-bottom: 26%;
 }
 
 .featuresContainer {
@@ -70,8 +75,15 @@ p {
 /* Title Image */
 
 .titleImage {
-    width: 60%;
+    width: 55%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+.titleImageBox {
+    height: 25rem;
+    padding-top: 8%;
 }
 
 .featureBoxes {
@@ -84,6 +96,9 @@ p {
 #features {
     color: #8f8f8f;
     padding: 0 13%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
 }
 
 .featureIcons {
@@ -104,6 +119,7 @@ p {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+    position: relative;
 }
 
 .carousel-item {
